@@ -194,8 +194,8 @@ plt.show()
 
 
 # Drop unused columns
-train = train.drop(columns=["Id", "School"])
-test = test.drop(columns=["Id","School"])
+train = train.drop(columns=["Id"])
+test = test.drop(columns=["Id"])
 
 """### 4.2 Dealing Missing Values
 
